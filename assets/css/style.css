@@ -45,6 +45,7 @@ section {
 }
 
 section h2 {
+    text-decoration: underline;
     font-size: 40px;
     padding: 15px;
     background-color: #899878;
@@ -62,6 +63,14 @@ section p {
     color: #222625;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+}
+
+section p a {
+    color: #222625;
+}
+section p a:hover {
+     color:#e4e6c3;
 }
 
 section ul li a u{
@@ -86,3 +95,11 @@ footer h3 {
     justify-content: center;
 }
 
+.workimg {
+    margin: auto;
+    height: 1000px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(./images/Screenshot\ 2022-06-10\ at\ 14-30-15\ Horiseon.png)
+}
