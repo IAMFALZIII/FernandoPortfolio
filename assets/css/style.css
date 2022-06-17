@@ -60,6 +60,7 @@ section p {
     font-size: 20px;
     width: 50%;
     margin-left: 40px;
+    margin-top: 50px;
     color: #222625;
     display: flex;
     justify-content: center;
@@ -102,4 +103,16 @@ footer h3 {
     background-size: cover;
     background-position: center;
     background-image: url(./images/Screenshot\ 2022-06-10\ at\ 14-30-15\ Horiseon.png)
+}
+
+#AboutMe {
+    scroll-padding-top: 20px;
+}
+
+#Work {
+    scroll-padding-top: 70px;
+}
+
+#Contact {
+    scroll-padding-top: 200px;
 }
