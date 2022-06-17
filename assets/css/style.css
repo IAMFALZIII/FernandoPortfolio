@@ -23,7 +23,7 @@ header nav {
     font-size: 20px;
     display: flex;
     justify-content: flex-end;
-    padding: 8px;
+    padding: 15px;
     margin: 0px;
 }
 
@@ -34,5 +34,55 @@ header nav a {
 header nav a:hover {
 cursor: pointer;
 color: #e4e6c3;
+}
+
+section {
+    display: flex;
+    width: 100%;
+    background-color: #899878;
+    color: #222625;
+    padding: 60px;
+}
+
+section h2 {
+    font-size: 40px;
+    padding: 15px;
+    background-color: #899878;
+    color: #222625;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-right: 50px;
+}
+
+section p {
+    font-size: 20px;
+    width: 50%;
+    margin-left: 40px;
+    color: #222625;
+    display: flex;
+    justify-content: center;
+}
+
+section ul li a u{
+    color: #222625;
+}
+
+section ul li a u:hover{
+    color:#e4e6c3;
+}
+
+footer {
+    width: 100%;
+    padding: 20px 20px;
+    background-color: #222625;
+    color: #899878;
+}
+
+footer h3 {
+    color: #899878;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
 }
 
