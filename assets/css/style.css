@@ -1,0 +1,38 @@
+body {
+    width: 100%;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222625;
+}
+header h1 {
+    text-align: center;
+    font-size: 40px;
+    margin: 0px;
+    width: 25%;
+    background-color: #222625;
+    color: #e4e6c3;
+}
+
+header nav {
+    width: 60%;
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 8px;
+    margin: 0px;
+}
+
+header nav a {
+    color: #899878;
+}
+
+header nav a:hover {
+cursor: pointer;
+color: #e4e6c3;
+}
+
